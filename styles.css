@@ -1,0 +1,406 @@
+/********************************/
+/*Resets*/
+/********************************/
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans';
+    font-weight: 300;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+}
+/********************************/
+/*Defaults*/
+/********************************/
+hr {
+    width: 180px;
+    background-color: orange;
+    border: 1px solid orange;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 35pt;
+    font-family: Georgia;
+}
+
+h3 {
+    font-family: Georgia;
+    font-size: 25pt;
+    padding-top: 25px;
+}
+
+/********************************/
+/*Layout*/
+/********************************/
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}
+
+main {
+    display: inline-block;
+    border-right: 2px solid orange;
+    width: 430px;
+    height: 400px;
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+    line-height: 150%;
+}
+
+aside {
+    display: inline-block;
+    width: 430px;
+    height: 400px;
+    padding: 20px;
+    text-align: left;
+    line-height: 150%;
+}
+
+footer {
+    background-color: rgb(96, 130, 110);
+    min-height: 250px;
+
+}
+
+.primary-header {
+    position: relative;
+}
+
+.panel > div {
+    width: 960px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+/********************************/
+/*Components*/
+/********************************/
+
+.hero {
+    position: relative;
+    min-height: 700px;
+    background-color: green;
+    background: linear-gradient(rgba(65, 210, 210, 0.7), rgba(65, 130, 120, 0.7)), url("images/background.png");
+    background-size: cover;
+}
+
+.clear {
+    text-align: center;
+    /*border-top: 1px solid white;*/
+    border-bottom: 1px solid white;
+    font-size: 10pt;
+    /*position: fixed;*/
+    width: 660px;
+    margin: 0 auto;
+    top: 20px;
+}
+
+.clear a {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    margin: 4px;
+    font-size: 14pt;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.solid {
+    background-color: rgb(96, 130, 110);
+    border-top: 1px solid rgb(96, 130, 110);
+    border-bottom: 1px solid rgb(96, 130, 110);
+}
+
+.primary-header nav a:hover {
+    color: rgb(86, 86, 86);
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 54pt;
+    font-family: 'Italianno', cursive;
+    letter-spacing: 23px;
+    display: block;
+    position: absolute;
+    top: 240px;
+    right: 7%;
+}
+
+.services {
+    text-align: center;
+}
+
+.services p {
+    font-family: Georgia;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.about-us {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("images/workbench.png");
+    background-size: cover;
+    min-height: 400px;
+    color: #fff;
+}
+
+.about-us > div {
+    display: inline-block;
+}
+
+.about-us hr {
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    font-family: Georgia;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    color: #969490;
+}
+
+.gallery > div {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gallery h1 > a {
+    text-decoration: none;
+}
+
+.gallery h1:hover {
+    color: #DCECEA;
+}
+
+.breakout {
+    display: inline-block;
+    padding: 55px;
+}
+
+.breakout img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px solid black;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.45);
+}
+
+.breakout h2 {
+    letter-spacing: 3px;
+}
+
+.footer-info {
+    text-align: center;
+    color: #DCECEA;
+    margin: none;
+    position: relative;
+    min-height: 230px;
+}
+
+.address {
+    font-size: 20pt;
+    padding-top: 25px;
+}
+
+.social {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 70px;
+    right: 200px;
+    left: 200px;
+    text-align: center;
+    color: #DCECEA;
+}
+
+.fa-google-plus, .fa-facebook, .fa-twitter {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.copyright {
+    font-size: 10pt;
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    left: 200px;
+}
+
+/************ GALLERY ************/
+
+.album {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(177, 185, 166);
+}
+
+.gallerycontainer {
+    position: relative;
+    min-height: 550px;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.gallerycontainer h1 {
+    padding-top: 40px;
+}
+
+.gallerycontainer hr {
+    margin-bottom: 40px;
+}
+
+.thumbnail img {
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover {
+    background-color: transparent;
+}
+
+.thumbnail:hover img {
+    border: 1px solid blue;
+}
+
+.thumbnail span { /*CSS for enlarged image*/
+    position: absolute;
+    background-color: lightyellow;
+    padding: 5px;
+    left: -1000px;
+    border: 1px solid gray;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span { /*CSS for enlarged image*/
+    visibility: visible;
+    top: 0;
+    left: 230px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+
+.gohome, .gotocontact, .gotogallery {
+    font-size: 14pt;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(96, 130, 110);
+    color: #DCECEA;
+}
+
+.gohome a {
+    text-decoration: none;
+}
+
+.gotocontact a {
+    text-decoration: none;
+}
+
+.gotogallery a {
+    text-decoration: none;
+}
+
+/************ CONTACT-US ************/
+
+.contact-us {
+    /*background-color: rgba(89, 71, 36, 0.24);*/
+    background-color: rgb(220, 236, 234);
+    text-align: center;
+}
+
+.contact-us > div {
+    padding-bottom: 15px;
+    min-height: 500px;
+}
+
+.contact-us > div > p {
+    font-size: 18pt;
+    margin: 25px;
+    text-align: center;
+    color: #60826E;
+}
+
+.contact-us > div > h1 {
+    font-size: 40pt;
+}
+
+.contact-us form {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 750px;
+}
+
+.input {
+    vertical-align: top;
+    display: inline-block;
+    width: 372px;
+}
+
+.message {
+    display: inline-block;
+    width: 363px;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.message > input {
+    margin-top: 5px;
+    padding-bottom: 100px;
+    width: 340px;
+    height: 133px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12pt;
+    background-color: #FFFFFF;
+}
+
+.input-boxes {
+    margin: 11px;
+    width: 350px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12pt;
+    border: none;
+}
+
+.msg-btn {
+    width: 80px;
+    margin: 11px auto;
+}
+
+.msg-sent {
+    padding: 4px;
+    margin-left: -23px;
+    margin-top: 12px;
+    width: 120px;
+    font-size: 14pt;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #60826E;
+    color: #E3E3E3;
+}
