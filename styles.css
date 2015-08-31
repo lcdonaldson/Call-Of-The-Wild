@@ -131,13 +131,13 @@ footer {
 .logo {
     text-transform: uppercase;
     color: #fff;
-    font-size: 54pt;
+    font-size: 45pt;
     font-family: 'Italianno', cursive;
     letter-spacing: 23px;
     display: block;
     position: absolute;
     top: 240px;
-    right: 7%;
+    right: 5%;
 }
 
 .services {
@@ -247,17 +247,25 @@ footer {
 .album {
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(177, 185, 166);
+    background-color: rgba(96, 130, 110, 0.78);
 }
 
 .gallerycontainer {
+    background-color: rgb(177, 185, 166);
     position: relative;
     min-height: 550px;
+    border: 8px solid #60826E;
+    border-top: 8px solid #60826E;
+    padding: 10px;
 /*Add a height attribute and set to largest image's height to prevent overlaying*/
 }
 
 .gallerycontainer h1 {
-    padding-top: 40px;
+    padding-top: 0px;
+}
+
+.gallerycontainer h2 {
+    font-size: 28pt;
 }
 
 .gallerycontainer hr {
@@ -276,6 +284,7 @@ footer {
 .thumbnail:hover img {
     border: 1px solid blue;
 }
+/************************ antler *****************************/
 
 .thumbnail span { /*CSS for enlarged image*/
     position: absolute;
@@ -295,8 +304,56 @@ footer {
 
 .thumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
-    top: 0;
-    left: 230px; /*position where enlarged image should offset horizontally */
+    top: 20px;
+    left: 800px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+/************************* horn **************************/
+
+.hornthumbnail span { /*CSS for enlarged image*/
+    position: absolute;
+    background-color: lightyellow;
+    padding: 5px;
+    right: -1000px;
+    border: 1px solid gray;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.hornthumbnail span img { /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.hornthumbnail:hover span { /*CSS for enlarged image*/
+    visibility: visible;
+    top: 500px;
+    right: 830px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+/************************* wood **************************/
+
+.woodthumbnail span { /*CSS for enlarged image*/
+    position: absolute;
+    background-color: lightyellow;
+    padding: 5px;
+    left: -1000px;
+    border: 1px solid gray;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.woodthumbnail span img { /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.woodthumbnail:hover span { /*CSS for enlarged image*/
+    visibility: visible;
+    top: 800px;
+    left: 800px; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
 
@@ -306,6 +363,7 @@ footer {
     border-radius: 5px;
     width: 150px;
     margin-bottom: 10px;
+    margin-top: 10px;
     padding: 5px;
     background-color: rgb(96, 130, 110);
     color: #DCECEA;
