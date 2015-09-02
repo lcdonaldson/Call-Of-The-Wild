@@ -140,6 +140,17 @@ footer {
     right: 5%;
 }
 
+.primary-header h4 {
+    text-align: center;
+    letter-spacing: 15px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 570px;
+    right: 8%;
+    font-style: italic;
+}
+
 .services {
     text-align: center;
 }
@@ -153,10 +164,12 @@ footer {
 
 .about-us {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("images/workbench.png");
+    -webkit-filter: sepia(.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/workbench.png");
     background-size: cover;
     min-height: 400px;
     color: #fff;
+    opacity: 0.7;
 }
 
 .about-us > div {
@@ -172,7 +185,8 @@ footer {
     font-size: 14pt;
     letter-spacing: 3px;
     padding-bottom: 30px;
-    color: #969490;
+    /*color: #969490;*/
+    color: #fff;
 }
 
 .gallery > div {
@@ -248,6 +262,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     background-color: rgba(96, 130, 110, 0.78);
+    overflow: hidden;
 }
 
 .gallerycontainer {
@@ -264,13 +279,14 @@ footer {
     padding-top: 0px;
 }
 
-.gallerycontainer h2 {
-    font-size: 28pt;
-}
-
 .gallerycontainer hr {
     margin-bottom: 40px;
 }
+
+.gallerycontainer h2 {
+    font-size: 28pt;
+}
+/**************** antler pic effects *****************/
 
 .thumbnail img {
     border: 1px solid white;
@@ -284,7 +300,37 @@ footer {
 .thumbnail:hover img {
     border: 1px solid blue;
 }
-/************************ antler *****************************/
+
+/**************** horn pic effects *****************/
+
+.hornthumbnail img {
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.hornthumbnail:hover {
+    background-color: transparent;
+}
+
+.hornthumbnail:hover img {
+    border: 1px solid blue;
+}
+/**************** wood pic effects *****************/
+
+.woodthumbnail img {
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.woodthumbnail:hover {
+    background-color: transparent;
+}
+
+.woodthumbnail:hover img {
+    border: 1px solid blue;
+}
+
+/************************ antler lg *****************************/
 
 .thumbnail span { /*CSS for enlarged image*/
     position: absolute;
@@ -305,16 +351,16 @@ footer {
 .thumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
     top: 20px;
-    left: 800px; /*position where enlarged image should offset horizontally */
+    left: 700px; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
-/************************* horn **************************/
+/************************* horn lg **************************/
 
 .hornthumbnail span { /*CSS for enlarged image*/
     position: absolute;
     background-color: lightyellow;
     padding: 5px;
-    right: -1000px;
+    /*right: -1000px;*/
     border: 1px solid gray;
     visibility: hidden;
     color: black;
@@ -329,10 +375,10 @@ footer {
 .hornthumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
     top: 500px;
-    right: 830px; /*position where enlarged image should offset horizontally */
+    right: 0px; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
-/************************* wood **************************/
+/************************* wood lg**************************/
 
 .woodthumbnail span { /*CSS for enlarged image*/
     position: absolute;
@@ -353,7 +399,7 @@ footer {
 .woodthumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
     top: 800px;
-    left: 800px; /*position where enlarged image should offset horizontally */
+    left: 400px; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
 
