@@ -35,6 +35,7 @@ h3 {
     font-family: Georgia;
     font-size: 25pt;
     padding-top: 25px;
+    color: rgba(5, 5, 5, 0.7);
 }
 
 /********************************/
@@ -92,7 +93,7 @@ footer {
     position: relative;
     min-height: 700px;
     background-color: green;
-    background: linear-gradient(rgba(65, 210, 210, 0.7), rgba(65, 130, 120, 0.7)), url("images/background.png");
+    background: linear-gradient(rgba(65, 210, 210, 0.7), rgba(65, 130, 120, 0.8)), url("images/background.png");
     background-size: cover;
 }
 
@@ -148,11 +149,15 @@ footer {
     position: absolute;
     top: 570px;
     right: 8%;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 .services {
     text-align: center;
+}
+
+.services h1 {
+    color: rgba(5, 5, 5, 0.7);
 }
 
 .services p {
@@ -168,7 +173,7 @@ footer {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/workbench.png");
     background-size: cover;
     min-height: 400px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.90);
     opacity: 0.7;
 }
 
@@ -198,8 +203,12 @@ footer {
     text-decoration: none;
 }
 
+.gallery h1 {
+    color: rgba(5, 5, 5, 0.70);
+}
+
 .gallery h1:hover {
-    color: #DCECEA;
+    color: rgba(90, 130, 125, 0.65);
 }
 
 .breakout {
@@ -218,6 +227,7 @@ footer {
 
 .breakout h2 {
     letter-spacing: 3px;
+    color: rgba(5, 5, 5, 0.7);
 }
 
 .footer-info {
@@ -449,6 +459,7 @@ footer {
 
 .contact-us > div > h1 {
     font-size: 40pt;
+    color: rgba(5, 5, 5, 0.7);
 }
 
 .contact-us form {
@@ -478,14 +489,14 @@ footer {
     border-radius: 5px;
     border: none;
     font-size: 12pt;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .input-boxes {
     margin: 11px;
     width: 350px;
     height: 30px;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     font-size: 12pt;
     border: none;
