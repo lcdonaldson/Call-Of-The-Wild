@@ -164,14 +164,13 @@ footer {
 
 .about-us {
     text-align: center;
-    -webkit-filter: sepia(.5);
+    -webkit-filter: sepia(.);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/workbench.png");
     background-size: cover;
     min-height: 400px;
     color: #fff;
     opacity: 0.7;
 }
-
 
 .about-us > div {
     display: inline-block;
