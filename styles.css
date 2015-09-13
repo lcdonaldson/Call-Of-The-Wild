@@ -253,9 +253,21 @@ footer {
     color: #DCECEA;
 }
 
-.fa-google-plus, .fa-facebook, .fa-twitter {
+.fa {
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.fa-google-plus-square:hover {
+    color: rgb(221, 75, 57)
+} 
+
+.fa-facebook-square:hover {
+    color: rgb(59,89,152)
+}
+
+.fa-pinterest-square:hover {
+    color: rgb(203, 32, 39)
 }
 
 .copyright {
