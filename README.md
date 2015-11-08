@@ -7,5 +7,5 @@ I started fleshing it out and it just came together. I had never put together a 
 
 live view: http://lcdonaldson.github.io/Call-Of-The-Wild/index.html
 
-(edits to follow soon, website will be put on a responsive grid)
+(edits to follow soon, website will be put on a responsive grid and the gallery will be fixed)
 
