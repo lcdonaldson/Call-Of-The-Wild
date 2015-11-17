@@ -8,4 +8,7 @@ I started fleshing it out and it just came together. I had never put together a 
 live view: http://lcdonaldson.github.io/Call-Of-The-Wild/index.html
 
 (edits to follow soon, website will be put on a responsive grid and the gallery will be fixed)
+*** Update *** I have chosen Django as the backbone to rebuild this site. It will look very much the same, but with many new and great features. Im still learning Django with some other projects for now but I am convinced this is the way to build a great site and It will launch shortly after the new year.
+
+
 
