@@ -286,7 +286,7 @@ footer {
 .gallerycontainer h2 {
     font-size: 28pt;
 }
-/**************** antler pic effects *****************/
+/**************** antler img effects *****************/
 
 .thumbnail img {
     border: 1px solid white;
@@ -301,7 +301,7 @@ footer {
     border: 1px solid blue;
 }
 
-/**************** horn pic effects *****************/
+/**************** horn img effects *****************/
 
 .hornthumbnail img {
     border: 1px solid white;
@@ -315,7 +315,7 @@ footer {
 .hornthumbnail:hover img {
     border: 1px solid blue;
 }
-/**************** wood pic effects *****************/
+/**************** wood img effects *****************/
 
 .woodthumbnail img {
     border: 1px solid white;
