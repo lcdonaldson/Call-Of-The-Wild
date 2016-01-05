@@ -12,9 +12,11 @@ html {
     box-sizing: inherit;
     color: inherit;
 }
-/********************************/
-/*Defaults*/
-/********************************/
+
+/********************************
+            Defaults
+********************************/
+
 hr {
     width: 180px;
     background-color: orange;
