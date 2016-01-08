@@ -12,7 +12,8 @@
     "bower_components",
     "test",
     "tests",
-    "notes"
+    "notes",
+    "why"
   ],
   "dependencies": {
     "font-awesome": "fontawesome#~4.4.0",
