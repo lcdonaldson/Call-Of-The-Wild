@@ -38,6 +38,8 @@ h3 {
     color: rgba(5, 5, 5, 0.7);
 }
 
+a { text-decoration: none; }
+
 /********************************/
 /*Layout*/
 /********************************/
@@ -199,17 +201,13 @@ footer {
     margin-bottom: 15px;
 }
 
-.gallery h1 > a {
-    text-decoration: none;
-}
-
 .gallery h1 {
     color: rgba(5, 5, 5, 0.70);
 }
 
 .gallery h1:hover {
     color: rgba(90, 130, 125, 0.65);
-}
+} 
 
 .breakout {
     display: inline-block;
