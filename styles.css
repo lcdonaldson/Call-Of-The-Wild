@@ -267,10 +267,7 @@ footer {
 
 .copyright {
     font-size: 10pt;
-    position: absolute;
-    bottom: 0px;
-    right: 200px;
-    left: 200px;
+    margin-top: 10px;
 }
 
 /************ GALLERY ************/
