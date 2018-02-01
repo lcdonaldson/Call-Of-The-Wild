@@ -73,7 +73,7 @@ aside {
 
 footer {
     background-color: rgb(96, 130, 110);
-    min-height: 250px;
+    min-height: 170px;
 
 }
 
@@ -233,7 +233,7 @@ footer {
     color: #DCECEA;
     margin: none;
     position: relative;
-    min-height: 230px;
+    min-height: 150px;
 }
 
 .address {
@@ -537,10 +537,10 @@ footer {
 	    left: 200px;
 	    text-align: center;
 	    color: #DCECEA;
-	}
+    }
 
     .fa {
         padding-right: 50px;
-	    padding-left: 50px;
+	padding-left: 50px;
     }
 }
