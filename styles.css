@@ -493,12 +493,12 @@ footer {
 .msg-sent {
     padding: 4px;
     margin-left: -23px;
-    margin-top: 12px;
-    width: 120px;
-    font-size: 14pt;
+    margin-top: 1rem;
+    width: 10rem;
+    font-size: 1em;
     text-align: center;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: #60826E;
     color: #E3E3E3;
 }
