@@ -313,10 +313,10 @@ footer {
 
 .woodthumbnail img {
     border: 1px solid white;
-    margin: 0 5px 5px 0;
+    margin: 0 0.5rem 0.5rem 0;
 }
 
-.woodthumbnail:hover {
+.woodthumbnail:hover 
     background-color: transparent;
 }
 
@@ -329,7 +329,7 @@ footer {
 .thumbnail span { /*CSS for enlarged image*/
     position: absolute;
     background-color: lightyellow;
-    padding: 5px;
+    padding: 0.5rem;
     left: -1000px;
     border: 1px solid gray;
     visibility: hidden;
@@ -339,7 +339,7 @@ footer {
 
 .thumbnail span img { /*CSS for enlarged image*/
     border-width: 0;
-    padding: 2px;
+    padding: 0.2rem;
 }
 
 .thumbnail:hover span { /*CSS for enlarged image*/
