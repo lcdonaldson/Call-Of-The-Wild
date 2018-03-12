@@ -265,16 +265,16 @@ footer {
     min-height: 550px;
     border: 8px solid #60826E;
     border-top: 8px solid #60826E;
-    padding: 10px;
+    padding: 0.8rem;
 /*Add a height attribute and set to largest image's height to prevent overlaying*/
 }
 
 .gallerycontainer h1 {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .gallerycontainer hr {
-    margin-bottom: 40px;
+    margin-bottom: 2.6rem;
 }
 
 .gallerycontainer h2 {
