@@ -353,7 +353,7 @@ footer {
 .hornthumbnail span { /*CSS for enlarged image*/
     position: absolute;
     background-color: lightyellow;
-    padding: 5px;
+    padding: 0.5rem;
     /*right: -1000px;*/
     border: 1px solid gray;
     visibility: hidden;
@@ -363,13 +363,13 @@ footer {
 
 .hornthumbnail span img { /*CSS for enlarged image*/
     border-width: 0;
-    padding: 2px;
+    padding: 0.2rem;
 }
 
 .hornthumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
     top: 500px;
-    right: 0px; /*position where enlarged image should offset horizontally */
+    right: 0; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
 /************************* wood lg**************************/
@@ -377,7 +377,7 @@ footer {
 .woodthumbnail span { /*CSS for enlarged image*/
     position: absolute;
     background-color: lightyellow;
-    padding: 5px;
+    padding: 0.5rem;
     left: -1000px;
     border: 1px solid gray;
     visibility: hidden;
