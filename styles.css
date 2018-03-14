@@ -487,11 +487,11 @@ footer {
 
 .msg-btn {
     width: 80px;
-    margin: 11px auto;
+    margin: 0.8rem auto;
 }
 
 .msg-sent {
-    padding: 4px;
+    padding: 0.2rem;
     margin-left: -23px;
     margin-top: 1rem;
     width: 10rem;
