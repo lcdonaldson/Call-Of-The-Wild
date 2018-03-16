@@ -284,7 +284,7 @@ footer {
 
 .thumbnail img {
     border: 1px solid white;
-    margin: 0 5px 5px 0;
+    margin: 0 0.5rem 0.5rem 0;
 }
 
 .thumbnail:hover {
@@ -299,7 +299,7 @@ footer {
 
 .hornthumbnail img {
     border: 1px solid white;
-    margin: 0 5px 5px 0;
+    margin: 0 0.5rem 0.5rem 0;
 }
 
 .hornthumbnail:hover {
