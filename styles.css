@@ -465,7 +465,7 @@ footer {
 }
 
 .message > input {
-    margin-top: 5px;
+    margin-top: 0.5rem;
     padding-bottom: 100px;
     width: 340px;
     height: 133px;
