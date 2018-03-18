@@ -104,12 +104,12 @@ footer {
 .clear a {
     text-transform: uppercase;
     color: white;
-    padding: 10px;
-    margin: 4px;
-    font-size: 14pt;
+    padding: 0.8rem;
+    margin: 0.4rem;
+    font-size: 1em;
     text-decoration: none;
     display: inline-block;
-    padding-bottom: 12px;
+    padding-bottom: 0.9rem;
 }
 
 .solid {
