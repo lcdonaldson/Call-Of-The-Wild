@@ -125,7 +125,7 @@ footer {
 .logo {
     text-transform: uppercase;
     color: #fff;
-    font-size: 45pt;
+    font-size: 4em;
     font-family: 'Italianno', cursive;
     letter-spacing: 23px;
     display: block;
@@ -136,7 +136,7 @@ footer {
 
 .primary-header h4 {
     text-align: center;
-    letter-spacing: 15px;
+    letter-spacing: 1rem;
     color: white;
     text-transform: uppercase;
     position: absolute;
@@ -151,9 +151,9 @@ footer {
 
 .services p {
     font-family: Georgia;
-    font-size: 14pt;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
+    font-size: 0.8em;
+    letter-spacing: 0.2rem;
+    padding-bottom: 2rem;
 }
 
 .about-us {
@@ -171,7 +171,7 @@ footer {
 }
 
 .about-us hr {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .about-us p {
