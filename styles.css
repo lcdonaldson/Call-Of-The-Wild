@@ -344,7 +344,7 @@ footer {
 
 .thumbnail:hover span { /*CSS for enlarged image*/
     visibility: visible;
-    top: 20px;
+    top: 1.4rem;
     left: 700px; /*position where enlarged image should offset horizontally */
     z-index: 50;
 }
@@ -387,7 +387,7 @@ footer {
 
 .woodthumbnail span img { /*CSS for enlarged image*/
     border-width: 0;
-    padding: 2px;
+    padding: 0.1rem;
 }
 
 .woodthumbnail:hover span { /*CSS for enlarged image*/
@@ -400,11 +400,11 @@ footer {
 .gohome, .gotocontact, .gotogallery {
     font-size: 14pt;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.2rem;
     width: 150px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 5px;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+    padding: 0.2rem;
     background-color: rgb(96, 130, 110);
     color: #DCECEA;
 }
